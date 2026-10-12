@@ -1,0 +1,23 @@
+[
+	{
+		"label": "Hold duration",
+		"property": "hold_to_unload.hold_ms",
+		"type": "dropdown",
+		"placeholder": "Use default",
+		"defaultValue": "600",
+		"options": [
+			{
+				"label": "250 ms (quick)",
+				"value": "250"
+			},
+			{
+				"label": "400 ms",
+				"value": "400"
+			},
+			{
+				"label": "600 ms",
+				"value": "600"
+			}
+		]
+	}
+]

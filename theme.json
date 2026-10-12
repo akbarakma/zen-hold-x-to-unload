@@ -1,0 +1,22 @@
+{
+  "id": "zen-hold-x-to-unload",
+  "homepage": "https://github.com/akbarakma/zen-hold-x-to-unload",
+  "author": "akbarakma",
+  "name": "Hold X to Unload Tab",
+  "description": "Press and hold a tab's close button to unload it. A quick click still closes it.",
+  "version": "1.0.0",
+  "createdAt": "2026-10-13",
+  "updatedAt": "2026-10-13",
+  "readme": "https://raw.githubusercontent.com/akbarakma/zen-hold-x-to-unload/main/README.md",
+  "preferences": "preferences.json",
+  "scripts": {
+    "zen-hold-x-to-unload.uc.mjs": {
+      "name": "Hold X to Unload",
+      "description": "Adds press-and-hold unload to the tab close button.",
+      "include": ["chrome://browser/content/browser.xhtml*"]
+    }
+  },
+  "supportsUnload": true,
+  "tags": ["tabs", "unload", "memory"],
+  "fork": ["zen"]
+}
